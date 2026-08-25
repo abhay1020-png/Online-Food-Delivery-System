@@ -142,8 +142,7 @@ export function StampRating({ rating }) {
   );
 }
 
-// Custom hook: browsing/search state, PLUS the cart system pulled in
-// from CartSystem.jsx (addItem, removeItem, qtyOf, totals, etc).
+
 export function useMirchiApp() {
   const [query, setQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState(null);
